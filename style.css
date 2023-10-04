@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Main-container{
+    width: 370px;
+    margin: 0px auto;
+     border: 5px solid lightgray; 
+}
+.header{
+    display: grid;
+    grid-template-columns: 210px 40px 40px 40px;
+    gap: 13px;
+    background-color:#218c74 ;
+}
+.camera{
+  width: 25px;
+  display: grid;
+  padding-top: 5px;
+  stroke: aliceblue;
+ 
+}
+.search{
+    width: 25px;
+    display: grid;
+    padding-top: 5px;
+    stroke: aliceblue;
+}
+.more{
+    width: 25px;
+    display: grid;
+    padding-top: 5px;
+    stroke: aliceblue;
+}
+.scnd-container{
+    padding-top: 25px;
+    background-color:#218c74 ;
+}
+.scnd-head{
+    display: flex;
+    gap: 65px;
+    /* padding-bottom: 5px; */
+    /* border-bottom:1px solid #218c74 ; */
+}
+.users{
+    width: 28px;
+    stroke: lightgray;
+    padding-left: 5px;
+    border-bottom:1px solid  #218c74;
+    padding-bottom: 5px;
+}
+.Chats{
+padding-top: 4px;
+color: aliceblue;
+padding-bottom: 5px;
+border-bottom:2px solid whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+
+}
+.Updates{
+padding-top: 4px;
+color: lightgray;
+border-bottom:1px solid #218c74 ;
+padding-bottom: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+.Calls{
+padding-top: 4px;
+color: lightgray;
+border-bottom:1px solid #218c74 ;
+padding-bottom: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+.Whatsapp{
+    color: aliceblue;
+    padding-left: 7px;
+    border-bottom:1px solid #218c74 ;
+    padding-bottom: 5px;
+    font-family: Helvetica;
+    
+    padding-top: 10px;
+}
+.Archived{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.arch{
+    width: 20px;
+    stroke: #218c74;
+    
+}
+.para{
+    font-weight: bold;
+}
+.Chaating{
+    
+}
+.chat-head{
+   display: grid;
+    grid-template-columns: 40px 190px 110px; 
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.user-img{
+    border-radius: 40px;
+    display: grid;
+}
+.timer{
+    display: grid;
+    padding-left: 60px;
+    color: rgb(165, 162, 162);
+}
+.user-chat{
+    color: rgb(165, 162, 162);
+    padding-top: 5px;
+    font-size: 15px;
+}
+.userhead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.Unknown .user-chat{
+    color: rgb(12, 230, 12);
+    
+}
+.Hamza .user-chat{
+    width: 20px;
+}
+.umaircall{
+    width: 19px;
+    stroke:red;
+}
+.Abu G  .user-chat{
+    color:  rgb(12, 230, 12);
+}
